@@ -1,6 +1,5 @@
-# Klima_Cluster
+# Climate_Cluster
 
-Die hier bereitgestellten R-Skripte dienen der Clusteranalyse von Klimadaten und dem Vergleich verschiedener Clusterverfahren.
-Ausgelegt sind sie für die Verwendung mit frei verfügbaren Daten des Deutschen Wetterdienstes, die für jede Stunde des Jahres Werte von Klimastationen in ganz Deutschland enthalten. 
-Jedes Clusterverfahren wird mittels eines eigenen Skripts durchgeführt. Das Einladen der Daten und die Datenvorverarbeitung geschieht im "reshaping.R"-Skript. Dieses wird automatisch von den anderen Skripten aufgerufen.
-Es wird ebenfalls ein Beispieldatensatz für den Sommer 2015 bereitgestellt, sowie eine SQL-Datei mit welcher der Beispieldatensatz aus den Rohdaten des Deutschen Wetterdienstes extrahiert wurde.
+The R-scripts provided here serve the cluster analysis of climate data and the comparison of different cluster methods.
+They are designed for use with open data from the German Weather Service, which contain values from climate stations throughout Germany for every hour of the year. Each cluster procedure is carried out by a separate script. The loading of the data and the data preprocessing is done in the "reshaping.R" script and then called by the specific scripts for clustering.
+An example data set for the summer of 2015 is also provided, as well as an SQL file with which the example data set was extracted from the raw data of the German Weather Service.
